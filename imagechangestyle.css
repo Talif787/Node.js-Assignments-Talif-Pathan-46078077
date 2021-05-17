@@ -3,3 +3,6 @@ p{
   padding: 30px;
   color: grey;
 }
+h1{
+  text-align: center; /* Changes as per line no. 10 of section-2 */
+}
