@@ -1,8 +1,8 @@
 function changeImage() {
-    var image = document.getElementById('myImage');
-    if (image.src.match("bulbon")) {
-        image.src = "https://www.w3schools.com/js/pic_bulboff.gif";
+    var bulbimage = document.getElementById('myImage');
+    if (bulbimage.src.match("bulbon")) {
+        bulbimage.src = "https://www.w3schools.com/js/pic_bulboff.gif";
     } else {
-        image.src = "https://www.w3schools.com/js/pic_bulbon.gif";
+        bulbimage.src = "https://www.w3schools.com/js/pic_bulbon.gif";
     }
 }
