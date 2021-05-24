@@ -1,0 +1,221 @@
+
+/*
+1st Question 
+h1{
+    background-color: red;
+}
+p{
+    background-color: green;
+}
+body{
+    background-color: yellow;
+} */
+
+
+
+
+/* 2nd Question
+img{
+    height: 50px;
+}
+.image-border{
+    border: 2px solid black;
+} */
+
+
+
+
+
+
+/* 
+3rd Question
+td{
+    border-style: ridge;
+} */
+
+
+
+
+
+
+
+/* 
+8th and 9th Question
+.second-row{
+    height: 40px;
+    width: 40px;
+}
+
+
+.dark-gray{
+    background-color: darkgray;
+}
+
+.light-gray{
+    background-color: lightgray;
+} 
+
+.green{
+    background-color: rgb(12, 206, 164)
+}
+
+table, tr, td{
+    border: 1px solid black;
+} */
+
+
+
+
+
+
+
+/* CSS ASSIGNMENT 
+1st Question
+.first-div{
+    background-color: rgb(0, 119, 255);
+    height: 60px;
+    font-size: 30px;
+    font-weight: bold;
+}
+.second-div{
+    background-color: rgb(0, 238, 255);
+    height: 35px; 
+}
+.third-div{
+    background-color: grey;
+    height: 35px; 
+}
+.fourth-div{
+    background-color: rgb(0, 238, 255);
+    height: 35px; 
+} */
+
+
+
+
+
+
+
+/* 
+2nd Question
+body{
+    background-color: rgb(168, 236, 236);
+}
+h2{
+    text-decoration: line-through;
+}
+h3{
+    text-decoration: underline;
+} */
+
+
+
+
+
+
+
+
+/* 
+3rd Question
+body{
+    background-color: rgb(201, 238, 238);
+}
+.first-p{
+    text-transform: uppercase;
+} */
+
+
+
+
+
+
+/* 
+4th Question
+a:link {
+    color: black;
+    text-decoration: none;
+  }
+a:visited {
+    color: red;
+    text-decoration: none;
+  }
+a:hover {
+    color: cyan;
+    text-decoration: underline;
+  }
+a:active {
+    color: rgb(104, 196, 104);
+    text-decoration: underline;
+  } */
+
+
+
+
+
+
+
+
+/* 
+5th Question
+table, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+} */
+
+
+
+
+
+
+
+
+/*
+6th Question 
+table, th, td{
+    border: 1px solid cyan;
+}
+th{
+    background-color: cyan;
+
+} */
+
+
+
+
+
+
+/* 
+7th Question
+p{
+    font-size: 50px;
+    text-align: center;
+    border: 1px solid red;
+    outline-style: dashed;
+    outline-color: cyan;
+} */
+
+
+
+
+
+
+
+/* 
+8th Question
+p{
+    background-color: cyan;
+}
+
+.first-paragraph{
+    border: 5px solid black;
+}
+.second-paragraph{
+    border: 3px solid black;
+}
+.third-paragraph{
+    border: 1px solid black;
+}
+div{
+    height: 20px;
+    background-color: cyan;
+} */
