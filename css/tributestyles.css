@@ -1,0 +1,56 @@
+.main{
+    max-width: 1280px;
+    max-height: 100%;
+    margin: 20px auto;
+    padding: 15px;
+    background-color: #dddddd;
+    border-radius: 5px;
+}
+#title{
+    text-align: center;
+}
+.main > p{
+    text-align: center;
+    font-size: 25px;
+}
+.img-div{
+    max-width: 600px;
+    height: 400px;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 5px;
+}
+
+figure img{
+    max-width: 100%;
+    padding-top: 30px;
+}
+
+figcaption{
+    max-width: 500px;
+}
+
+.tribute-information{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.read-more{
+    background-color: rgb(240, 217, 217);
+    height: 70px;
+}
+
+.read-more p{
+    font-size: 30px;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+table{
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+#other-awards{
+    text-align: center;
+}
