@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<!-- <form method="post" action="/items">
+  <label for="Items">Enter the items:</label><br>
+  <input type="text" id="Items" name="Item">
+  <input type="submit" value="Submit">
+</form> -->
+
+<% var i; %>
+<% console.log(Items); %>
+<% console.log(ItemId); %>
+<% if ((ItemId >=1) && (ItemId <= Items.length)){ %>
+  <% for (i = 0; i < Items.length; i++ ){ %>
+    <% if (Items[i].Id === parseInt(ItemId)){ %>
+      <p>Your item's name is: <%= Items[i].Item %> </p>
+      <p>Your item's price is: <%= Items[i].Price %> </p>
+  <% } %>
+  <% } %>
+<% } else { %>
+  <p>No such item found!!!</p>
+<% } %>
+
+</body>
+</html>

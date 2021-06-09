@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+</head>
+<body>
+
+<h2>Shopping List:</h2>
+
+<form method="post" action="/items">
+  <label for="Items">Enter the item:</label><br>
+  <input type="text" id="Items" name="Item" required><br><br>
+  <label for="Items">Enter the Price:</label><br>
+  <input type="number" id="Price" name="Price" required>
+  <input type="submit" value="Submit"><br><br>
+</form>
+
+<form class="" action="" name="myForm" >
+<label for="Items">Enter the ItemId to Update:</label><br>
+<input type="number" id="ItemId" name="ItemId" required>
+<input type="button" value="Update" class="test">
+</form>
+<ul>
+<% for(var i = 0; i < Items.length; i++ ){ %>
+  <li>ItemId: <%= Items[i].Id %> & Item name: <%= Items[i].Item %> & Price: <%= Items[i].Price %> </li>
+<% }; %>
+</ul>
+<script src="../stuff/delete.js"></script>
+</body>
+</html>
