@@ -1,0 +1,13 @@
+div{
+  width: 600px;
+  height: 400px;
+  margin:0 auto;
+  text-align: center;
+  background-color: lightgray;
+}
+body{
+  background-color: gray;
+}
+h2{
+  text-align: center;
+}
