@@ -1,0 +1,31 @@
+body{
+    font-family: 'Courier New', Courier, monospace
+}
+div.outside{
+    background-color: rgba(218, 204, 204, 0.911);
+    width: 800px;
+    height: 1000px;
+    margin: 0 auto;
+    border-radius: 25px;
+    border: 2px solid black;
+}
+h1{
+    text-align: center;
+}
+fieldset{
+    width: 700px;
+    margin: 0 auto;
+}
+input.submit-button{
+    width: 100px;
+    height: 70px;
+    background-color: aquamarine;
+    border-radius: 23px;
+}
+#wrapper{
+    display: flex;
+    justify-content: center;
+}
+
+
+

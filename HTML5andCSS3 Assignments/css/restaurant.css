@@ -1,0 +1,124 @@
+body{
+    background-color: rgb(240, 236, 236);
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    /* max-width: 1200px; */
+    grid-gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-items: center;
+    
+} 
+.container a{
+    text-decoration: none;
+}
+.nav{
+    width: 150px;
+    background-color: cyan;
+    color: black;
+    border-radius: 5px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 50px;    
+}
+.nav:hover{
+    background-color: rgb(231, 197, 202);
+}
+
+.left-main{
+    background-image: url('../img/pexels-ella-olsson-1640777.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 700px;
+    height: 400px;
+    grid-column: 1 / 4;
+    grid-row: 2 / 5;
+}
+.right-1{
+    background-image: url(../img/pexels-julie-aagaard-2097090.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 270px;
+    height: 200px;
+    grid-column: 4 / 5;
+    grid-row: 2 / 4;
+}
+.right-2{
+    background-image: url(../img/pexels-daria-shevtsova-704569.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 270px;
+    height: 200px;
+    grid-column: 4 / 5;
+    grid-row: 4 / 6;
+}
+
+.right-3{
+    background-image: url(../img/pexels-pixabay-315755.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 270px;
+    height: 200px;
+    grid-column: 2 / 3;
+    grid-row: 6 / 8;
+}
+.right-4{
+    background-image: url(../img/pexels-pixabay-461428.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 270px;
+    height: 200px;
+    grid-column: 4 / 5;
+    grid-row: 6 / 8;
+}
+footer{
+    grid-column: 1 / 6;
+    grid-row: 9 / 11;
+
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  /* Add a hover effect if you want */
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  /* Set a specific color for each brand */
+  
+  /* Facebook */
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  /* Twitter */
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  
+ /* Instagram */
+ .fa-instagram {
+    background: rgb(230, 96, 87);
+    color: white;
+  }
+  
+  /* Pinterest */
+  .fa-pinterest {
+    background: rgb(151, 219, 151);
+    color: white;
+  }
+
+
+
