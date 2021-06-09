@@ -1,0 +1,32 @@
+/* body{
+    background-color: lightgray;
+}
+#good-bad{
+    margin: 0 auto;
+    width: 800px;
+    height: 300px;
+    background-color: white;
+    box-sizing: border-box;
+    padding: 50px 40px;
+    text-align: center;
+}
+@media screen and (max-width: 840px){
+    #good-bad{
+        width: 400px;
+        height: 300px;
+    }
+}
+ */
+body{
+    background-color: lightgray;
+    margin: 20px;
+}
+input{
+    
+    font-size: 80%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#dummy{
+    float: right;
+    align-content: left;
+}
