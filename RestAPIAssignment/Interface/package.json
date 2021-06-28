@@ -1,0 +1,31 @@
+{
+  "name": "restapiassignment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Sample.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Talif787/Node.js-Assignments-Talif-Pathan-46078077.git"
+  },
+  "keywords": [
+    "The",
+    "interface",
+    "Question!!!"
+  ],
+  "author": "me",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Talif787/Node.js-Assignments-Talif-Pathan-46078077/issues"
+  },
+  "homepage": "https://github.com/Talif787/Node.js-Assignments-Talif-Pathan-46078077#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "fs": "0.0.1-security"
+  },
+  "devDependencies": {
+    "@types/node": "^15.12.2"
+  }
+}
